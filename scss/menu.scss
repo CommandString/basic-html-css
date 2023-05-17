@@ -1,0 +1,36 @@
+@import 'colors';
+
+
+// Settings
+$borderColor: $purpleInverted;
+$textColor: #bdbcbc;
+$textHoverColor: #fff;
+$transitionSpeed: 0.2s;
+
+nav {
+  display: flex;
+
+  > a {
+    margin: 10px;
+    text-decoration: none;
+    color: $textColor;
+    transition: $transitionSpeed ease-in-out;
+
+    &::after {
+      content: '';
+      border-bottom: $borderColor 1px solid;
+      display: block;
+      margin-top: 3px;
+      opacity: 0;
+      transition: inherit;
+    }
+
+    &:hover, &.active {
+      color: $textHoverColor;
+
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}

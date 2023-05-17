@@ -1,0 +1,160 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background: #1b1c1d;
+}
+
+div.container {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+div.hero {
+  padding: 20px;
+  text-align: center;
+}
+div.hero h1 {
+  font-size: 3em;
+  margin: 0;
+}
+div.hero h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+div.grid {
+  display: flex;
+  column-gap: 30px;
+}
+div.grid.centered {
+  align-items: center;
+  justify-content: center;
+}
+div.grid > div > h2.centered {
+  text-align: center;
+}
+div.grid.buttons {
+  flex-wrap: wrap;
+}
+div.grid.buttons > div {
+  width: 50%;
+}
+
+div.centered.section {
+  text-align: center;
+}
+
+div.divider {
+  background: white;
+  height: 1px;
+  margin: 10px 0;
+}
+
+span.purple.text {
+  color: #dc73ff;
+}
+
+span.inverted.purple.text {
+  color: #e28dff;
+}
+
+span.red.text {
+  color: #ff695e;
+}
+
+span.inverted.red.text {
+  color: #ff8178;
+}
+
+span.orange.text {
+  color: #ff851b;
+}
+
+span.inverted.orange.text {
+  color: #ff9335;
+}
+
+span.yellow.text {
+  color: #ffe21f;
+}
+
+span.inverted.yellow.text {
+  color: #ffe539;
+}
+
+span.olive.text {
+  color: #d9e778;
+}
+
+span.inverted.olive.text {
+  color: #dfeb8e;
+}
+
+span.green.text {
+  color: #2ecc40;
+}
+
+span.inverted.green.text {
+  color: #40d451;
+}
+
+span.teal.text {
+  color: #6dffff;
+}
+
+span.inverted.teal.text {
+  color: #87ffff;
+}
+
+span.blue.text {
+  color: #54c8ff;
+}
+
+span.inverted.blue.text {
+  color: #6ed0ff;
+}
+
+span.violet.text {
+  color: #a291fb;
+}
+
+span.inverted.violet.text {
+  color: #b7aafc;
+}
+
+span.pink.text {
+  color: #ff8edf;
+}
+
+span.inverted.pink.text {
+  color: #ffa8e6;
+}
+
+span.brown.text {
+  color: #d67c1c;
+}
+
+span.inverted.brown.text {
+  color: #e38929;
+}
+
+span.grey.text {
+  color: #dcddde;
+}
+
+span.inverted.grey.text {
+  color: #e9eaea;
+}
+
+span.black.text {
+  color: #545454;
+}
+
+span.inverted.black.text {
+  color: #616161;
+}
+
+/*# sourceMappingURL=main.css.map */

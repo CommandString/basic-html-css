@@ -1,0 +1,73 @@
+@import 'colors';
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background: $blackInverted;
+}
+
+div.container {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+div.hero {
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+}
+
+div.grid {
+  display: flex;
+  column-gap: 30px;
+
+  &.centered {
+    align-items: center;
+    justify-content: center;
+  }
+
+  > div {
+    > h2.centered {
+      text-align: center;
+    }
+  }
+
+  &.buttons {
+    flex-wrap: wrap;
+    > div {
+      width: 50%;
+    }
+  }
+}
+
+div.centered.section {
+  text-align: center;
+}
+
+div.divider {
+  background: white;
+  height: 1px;
+  margin: 10px 0;
+}
+
+@each $color, $hex in $colors {
+  span.#{$color}.text {
+    color: $hex;
+  }
+
+  span.inverted.#{$color}.text {
+    color: lighten($hex, 5%);
+  }
+}

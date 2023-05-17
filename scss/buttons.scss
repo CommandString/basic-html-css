@@ -1,0 +1,35 @@
+@import "colors";
+
+button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  background-color: $black;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: darken($black, 10%);
+  }
+}
+
+@each $color, $hex in $colors {
+  button.#{$color} {
+    background: $hex;
+
+    &:hover {
+      background: darken($hex, 10%);
+    }
+  }
+  button.inverted.#{$color} {
+    background: transparent;
+    color: $hex;
+    box-shadow: inset 0 0 0 2px $hex;
+
+    &:hover {
+      color: white;
+      background: $hex;
+    }
+  }
+}

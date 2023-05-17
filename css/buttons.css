@@ -1,0 +1,235 @@
+button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  background-color: #545454;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #3b3b3b;
+}
+
+button.purple {
+  background: #dc73ff;
+}
+button.purple:hover {
+  background: #cf40ff;
+}
+
+button.inverted.purple {
+  background: transparent;
+  color: #dc73ff;
+  box-shadow: inset 0 0 0 2px #dc73ff;
+}
+button.inverted.purple:hover {
+  color: white;
+  background: #dc73ff;
+}
+
+button.red {
+  background: #ff695e;
+}
+button.red:hover {
+  background: #ff392b;
+}
+
+button.inverted.red {
+  background: transparent;
+  color: #ff695e;
+  box-shadow: inset 0 0 0 2px #ff695e;
+}
+button.inverted.red:hover {
+  color: white;
+  background: #ff695e;
+}
+
+button.orange {
+  background: #ff851b;
+}
+button.orange:hover {
+  background: #e76b00;
+}
+
+button.inverted.orange {
+  background: transparent;
+  color: #ff851b;
+  box-shadow: inset 0 0 0 2px #ff851b;
+}
+button.inverted.orange:hover {
+  color: white;
+  background: #ff851b;
+}
+
+button.yellow {
+  background: #ffe21f;
+}
+button.yellow:hover {
+  background: #ebcd00;
+}
+
+button.inverted.yellow {
+  background: transparent;
+  color: #ffe21f;
+  box-shadow: inset 0 0 0 2px #ffe21f;
+}
+button.inverted.yellow:hover {
+  color: white;
+  background: #ffe21f;
+}
+
+button.olive {
+  background: #d9e778;
+}
+button.olive:hover {
+  background: #cddf4d;
+}
+
+button.inverted.olive {
+  background: transparent;
+  color: #d9e778;
+  box-shadow: inset 0 0 0 2px #d9e778;
+}
+button.inverted.olive:hover {
+  color: white;
+  background: #d9e778;
+}
+
+button.green {
+  background: #2ecc40;
+}
+button.green:hover {
+  background: #25a233;
+}
+
+button.inverted.green {
+  background: transparent;
+  color: #2ecc40;
+  box-shadow: inset 0 0 0 2px #2ecc40;
+}
+button.inverted.green:hover {
+  color: white;
+  background: #2ecc40;
+}
+
+button.teal {
+  background: #6dffff;
+}
+button.teal:hover {
+  background: #3affff;
+}
+
+button.inverted.teal {
+  background: transparent;
+  color: #6dffff;
+  box-shadow: inset 0 0 0 2px #6dffff;
+}
+button.inverted.teal:hover {
+  color: white;
+  background: #6dffff;
+}
+
+button.blue {
+  background: #54c8ff;
+}
+button.blue:hover {
+  background: #21b8ff;
+}
+
+button.inverted.blue {
+  background: transparent;
+  color: #54c8ff;
+  box-shadow: inset 0 0 0 2px #54c8ff;
+}
+button.inverted.blue:hover {
+  color: white;
+  background: #54c8ff;
+}
+
+button.violet {
+  background: #a291fb;
+}
+button.violet:hover {
+  background: #7860f9;
+}
+
+button.inverted.violet {
+  background: transparent;
+  color: #a291fb;
+  box-shadow: inset 0 0 0 2px #a291fb;
+}
+button.inverted.violet:hover {
+  color: white;
+  background: #a291fb;
+}
+
+button.pink {
+  background: #ff8edf;
+}
+button.pink:hover {
+  background: #ff5bd1;
+}
+
+button.inverted.pink {
+  background: transparent;
+  color: #ff8edf;
+  box-shadow: inset 0 0 0 2px #ff8edf;
+}
+button.inverted.pink:hover {
+  color: white;
+  background: #ff8edf;
+}
+
+button.brown {
+  background: #d67c1c;
+}
+button.brown:hover {
+  background: #a96216;
+}
+
+button.inverted.brown {
+  background: transparent;
+  color: #d67c1c;
+  box-shadow: inset 0 0 0 2px #d67c1c;
+}
+button.inverted.brown:hover {
+  color: white;
+  background: #d67c1c;
+}
+
+button.grey {
+  background: #dcddde;
+}
+button.grey:hover {
+  background: #c2c4c5;
+}
+
+button.inverted.grey {
+  background: transparent;
+  color: #dcddde;
+  box-shadow: inset 0 0 0 2px #dcddde;
+}
+button.inverted.grey:hover {
+  color: white;
+  background: #dcddde;
+}
+
+button.black {
+  background: #545454;
+}
+button.black:hover {
+  background: #3b3b3b;
+}
+
+button.inverted.black {
+  background: transparent;
+  color: #545454;
+  box-shadow: inset 0 0 0 2px #545454;
+}
+button.inverted.black:hover {
+  color: white;
+  background: #545454;
+}
+
+/*# sourceMappingURL=buttons.css.map */

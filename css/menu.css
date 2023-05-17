@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+}
+nav > a {
+  margin: 10px;
+  text-decoration: none;
+  color: #bdbcbc;
+  transition: 0.2s ease-in-out;
+}
+nav > a::after {
+  content: "";
+  border-bottom: #a333c8 1px solid;
+  display: block;
+  margin-top: 3px;
+  opacity: 0;
+  transition: inherit;
+}
+nav > a:hover, nav > a.active {
+  color: #fff;
+}
+nav > a:hover::after, nav > a.active::after {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=menu.css.map */
